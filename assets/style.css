@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic SC");
+@import url("https://fonts.googleapis.com/css?family=Mali");
+@import url("https://fonts.googleapis.com/css?family=Pangolin");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+/*------------------------------------------------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding : 0;
+	margin:  0;
+	background-color : #eeeeee4d;
+}
+
+header {
+	display: inline;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+	background-color: rgb(147, 29, 17);
+	padding: 5px;
+	position: sticky;
+    top: 0;
+}
+
+nav span {
+	font-size: 18px;
+	color: white;
+	cursor: default;
+}
+
+.dropdown {
+	float:left;
+	padding-right : 25px;
+	position: relative;	
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 200px;
+	z-index: 1;
+}
+
+.dropdown .dropbtn {
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	cursor: pointer;
+}
+
+.dropdown-content a{
+	float: none;
+	color: #931d11;
+	padding:  12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.show {
+	display: block;
+}
+
+.nav-left {
+	float: left;
+	padding-right : 25px;
+}
+
+.nav-right {
+	float: right;
+	margin-right : 40px;
+}
+
+.jumbotron {
+	padding: 60px;
+	background-image: url(aset/images/jumbotron-bg-img.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
+.jumbotron-text {
+	width: 38%;
+	color: white;
+	font-size: 20px;
+	font-family: "Sitka Text", sans-serif;
+}
+
+.jumbotron-text h1{
+	font-family: 'EngraversGothic BT', serif;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	font-size: 45px;
+	line-height: 40px;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+	font-family: "Sitka Text", sans-serif;
+	font-size: 14px;
+}
+
+.main-title hr {
+	height: 5px;
+	background-color: rgb(147, 29, 17);
+}
+
+.main-title h2 {
+	font-family: 'Dosis' ,serif;
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+#kontak {
+	float: left;
+	width: 75%;
+	padding-top: 30px;
+}
+
+
+.content {
+	padding: 50px 30px 0px 30px;
+}
+
+.content-message {
+	margin : 0 auto;
+	display: flex;
+	height : fit-content;
+	flex-wrap : wrap;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.flex-left {
+	width:50%;
+	float:left;
+}
+
+.flex-left, flex-r p{
+	text-align: left;
+}
+
+.flex-left img,
+.flex-right img {
+	width: inherit;
+	margin-top: 30px;
+	border: 15px solid #eee;
+}
+
+.flex-left h3,
+.flex-right h3 {
+	font-size: 24px;
+	letter-spacing: 5px;
+	font-family: "Cambria",sans-serif;
+}
+
+.flex-right {
+	width:50%;
+	float:right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.responsive-message {
+	display: none;
+}
+
+.button {
+	border-radius: 10px;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 2px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button-message {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+
+.button-message:hover {
+	background-color: #931d11;
+	border: 2px solid #826f6f;
+	color: white;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.profile header {
+	text-align: center;
+}
+
+.profile img {
+	width: 120px;
+	border: 10px solid #eee;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.profile .mobile{
+	display: none;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.row {
+	display: flex;
+	padding: 15px 0;
+	flex-wrap: wrap;
+}
+
+.col-90 {
+	width: 90%;
+	float: right;
+}
+
+.col-10 {
+	width: 10%;
+	float: left;
+}
+
+.col-5 {
+	width: 5%;
+	float: left;
+}
+
+.col-20 {
+	width: 20%;
+	float: left;
+}
+
+.col-75 {
+	width: 75%;
+	float: left;
+}
+
+input[type = text],
+input[type = username],
+input[type = password],
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: none;
+}
+
+.btn-contact{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	background-color:#931d11;
+	display: inline-block;
+	padding: 10px 25px;
+	cursor: pointer;
+	text-align: center;
+	box-shadow: 0 4px #931d116b;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn-contact:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+	border: 0px;
+}
+
+.red {
+	color: red;
+}
+
+footer {
+	color: white;
+	background-color: black;
+	height : fit-content;
+}
+
+.copyright {
+	text-align: center;
+	padding : 20px;
+}
+
+.login-box {
+	width: 400px;
+	margin: 100px auto;
+}
+
+.login-box-header{
+	background-color: grey;
+}
+
+.login-box h1 {
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+.login-box input, 
+.login-box button{
+	margin: 10px 0px;
+}
+
+.login-batal a{
+	padding-left: 5px;
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.banner-img {
+	width: 360px;
+	border: 15px solid #eee;
+}
+
+.title-content-message {
+	font-size: 24px;
+	font-family: "Cambria",sans-serif;
+	color: #931d11;
+}
+
+.title-content-message h3 {
+	margin-block-end: 5px;
+}
+
+.text-content-message {
+	text-align: justify;
+}
+
+.kembali-button a {
+	text-decoration: none;
+}
+
+.kembali-button {
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.topnav .icon {
+	display: none;
+}

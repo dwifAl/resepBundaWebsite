@@ -1,0 +1,237 @@
+/* Untuk Tablet */
+@media all and ( max-width: 1290px) {
+  .col-5 {
+    width: 10%;
+    float: left;
+  }
+
+  .col-20 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-75 {
+    width: 100%;
+    float: unset;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .jumbotron-text h1{
+      font-size: 30px;
+  }
+
+  .jumbotron-text {
+      letter-spacing: 2px;
+  }
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .login-box {
+    width: 320px;
+    margin: 90px auto;
+  }
+
+  .topnav {
+    padding: 15px;
+  }
+
+  .topnav li {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: inline-block;
+    font-size: 25px;
+    background-color : inherit;
+    position: absolute;
+    padding : 9px 15px;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+    
+  .topnav.responsive a.icon{
+    position: absolute;
+    margin : 9px 9px;
+    right: 0;
+    padding-right : 12px;
+    top: 0;
+    color : rgb(147 29 17);
+    background-color : white;
+  }
+
+  .topnav.responsive li {
+    display: block;
+    padding-bottom : 20px;
+    width : 100%;
+  }
+
+  .topnav.responsive ul {
+    padding-left : 15px;
+    padding-top : 42px;
+  }
+
+  .nav-left {
+    float: unset;
+  }
+
+  .nav-right {
+    float: unset;
+  }
+
+  .jumbotron {
+    padding-left : 30px;
+    padding-top : 10px;
+    height : 250px;
+  }
+
+  .jumbotron-text {
+      width: 100%;
+      color: white;
+      font-size: 14px;
+      padding-top: 30px;
+  }
+
+  .jumbotron-text h1{
+      letter-spacing: 0;
+      word-spacing: 5px;
+      font-size: 29px;
+      line-height: 25px;
+  }
+
+  aside {
+    float: unset;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  #content {
+    float: unset;
+    width: 100%;
+  }
+
+  #kontak {
+    float: unset;
+    width: 100%; 
+  }
+
+  .row {
+    display: unset;
+    padding: 15px 0;
+  }
+
+  .col-90 {
+    width: 100%;
+    float: unset;
+    padding-bottom: 15px;
+  }
+
+  .col-10 {
+    width: 100%;
+    float: unset;
+    padding-bottom: 15px;
+  }
+
+  .btn-contact{
+    width: 100%;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+  .flex-left {
+      width:100%;
+      float:unset;
+  }
+
+  .flex-left, flex-r p{
+      text-align: left;
+  }
+
+  .flex-left img,
+  .flex-right img {
+      width: 200px;
+      margin-top: 20px;
+      border: 15px solid #eee;
+  }
+
+  .flex-left h3,
+  .flex-right h3 {
+      font-size: 20px;
+      letter-spacing: 4px;
+      text-align: center;
+  }
+
+  .flex-right {
+      width:100%;
+      float:unset;
+  }
+
+  .align-right {
+    text-align : left;
+  }
+
+  .responsive-message {
+    display: block;
+  }
+
+  .non-responsive {
+    display: none;
+  }
+
+  .content-message p {
+    text-align : justify;
+  }
+
+  .button-message {
+    width : 100%;
+    padding : 10px;
+    margin-top : 15px;
+  }
+
+  .banner-img {
+    width : 200px;
+  }
+
+  .profile .mobile{
+    display: block;
+  }
+
+  .profile .tablet {
+    display: none;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .jumbotron-text {
+      width: 100%;
+      color: white;
+      font-size: 12px;
+  }
+
+  .jumbotron-text h1{
+      letter-spacing: 0;
+      word-spacing: 5px;
+      font-size: 23px;
+      line-height: 34px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  #kontak p,
+  #kontak label,
+  .profile table,
+  .content-message p {
+    font-size: 11px;
+  }
+}
